@@ -53,6 +53,7 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.CardView
+                android:id="@+id/resistor"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -87,6 +88,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/diode"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -112,7 +114,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="DIODE"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -121,6 +123,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/zenerdiode"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -146,7 +149,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="ZENER DIODE"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -155,6 +158,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/capacitor"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -180,7 +184,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="CAPACITOR"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -189,6 +193,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/inductor"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -214,7 +219,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="INDUCTOR"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -223,6 +228,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/led"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -248,7 +254,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="LED"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -257,6 +263,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/scr"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -282,7 +289,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="SCR"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -291,6 +298,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/ic"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -316,7 +324,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="IC"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -325,6 +333,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/battery"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -350,7 +359,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="BATTERY"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
@@ -359,6 +368,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/transistor"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:layout_columnWeight="1"
@@ -384,7 +394,7 @@
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
                         android:textSize="18sp"
-                        android:text="RESISTOR"
+                        android:text="TRANSISTOR"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
 
