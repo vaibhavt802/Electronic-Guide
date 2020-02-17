@@ -30,5 +30,77 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        mDiode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,DiodeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mZenerDiode.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ZenerDiodeActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mCapacitor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,CapacitorActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mInductor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,InductorActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mLED.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,LEDActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mSCR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,SCRActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mIC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ICActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mBattery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,BatteryActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mTransistor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,TransistorActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
