@@ -9,16 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SCRActivity"></activity>
-        <activity android:name=".LEDActivity" />
-        <activity android:name=".TransistorActivity" />
-        <activity android:name=".BatteryActivity" />
-        <activity android:name=".ICActivity" />
-        <activity android:name=".InductorActivity" />
-        <activity android:name=".ZenerDiodeActivity" />
-        <activity android:name=".DiodeActivity" />
-        <activity android:name=".CapacitorActivity" />
-        <activity android:name=".ResistorActivity" />
+        <activity android:name=".ResistorActivity"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
